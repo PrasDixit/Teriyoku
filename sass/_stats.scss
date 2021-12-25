@@ -1,0 +1,20 @@
+.stats {
+  padding-top: 100px;
+
+  .grid {
+    h3 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: bold;
+      color: $primaryColor;
+    }
+  }
+}
+
+.stats-heading {
+  max-width: 500px;
+  margin: auto;
+}
