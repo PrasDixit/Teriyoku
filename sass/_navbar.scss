@@ -1,0 +1,23 @@
+.navbar {
+  background-color: $primaryColor;
+  color: $offwhite;
+  height: 70px;
+
+  .flex {
+    justify-content: space-between;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  a {
+    color: $offwhite;
+    padding: 10px;
+    margin: 0 5px;
+
+    &:hover {
+      border-bottom: 2px solid $offwhite;
+    }
+  }
+}
