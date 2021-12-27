@@ -2,5 +2,13 @@
   a {
     color: $offwhite;
     margin: 0 10px;
+    transition: opacity 0.2s ease-in;
+  }
+}
+
+.social {
+  a:hover {
+    opacity: 0.9;
+    color: $primaryColor;
   }
 }
