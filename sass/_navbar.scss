@@ -3,12 +3,12 @@
   color: $offwhite;
   height: 70px;
 
-  .flex {
-    justify-content: space-between;
-  }
-
   ul {
     display: flex;
+  }
+
+  .flex {
+    justify-content: space-between;
   }
 
   a {
