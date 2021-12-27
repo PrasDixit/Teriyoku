@@ -137,3 +137,47 @@
 .p-5 {
   padding: 4rem;
 }
+
+// Background and Buttons
+.bg-primary,
+.btn-primary {
+  background-color: $primaryColor;
+  color: $offwhite;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: $secondaryColor;
+  color: $offwhite;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: $darkColor;
+  color: $offwhite;
+}
+
+.bg-light,
+.btn-light {
+  background-color: $lightColor;
+  color: $darkColor;
+}
+
+// Text sizes
+.lead {
+  font-size: 20px;
+}
+
+.sm {
+  font-size: 1rem;
+}
+.md {
+  font-size: 2rem;
+}
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
