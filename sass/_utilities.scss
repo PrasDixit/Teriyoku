@@ -36,6 +36,27 @@
   border: 1px $offwhite solid;
 }
 
+.alert {
+  background-color: $lightColor;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+
+  i {
+    margin-right: 10px;
+  }
+}
+
+.alert-success {
+  background-color: $successColor;
+  color: $offwhite;
+}
+
+.alert-error {
+  background-color: $errorColor;
+  color: $offwhite;
+}
+
 .flex {
   display: flex;
   justify-content: center;
