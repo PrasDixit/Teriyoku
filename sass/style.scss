@@ -9,6 +9,7 @@
 @import "./cloud";
 @import "./languages";
 @import "./features";
+@import "./docs";
 @import "./footer";
 @import "./mediaq";
 
@@ -46,4 +47,11 @@ h2 {
 
 p {
   margin: 10px 0;
+}
+
+code,
+pre {
+  background: #333;
+  color: $offwhite;
+  padding: 10px;
 }
